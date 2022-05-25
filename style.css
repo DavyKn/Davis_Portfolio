@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #191765;
+  font-family: 'roboto', sans-serif;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+.navbar {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 48px;
+}
+
+.navbar .logo {
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 24px;
+}
+
+.navbar .menu {
+  margin-right: 32px;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 24px;
+  background-image: url(./assets/Ellipse18.svg);
+  background-repeat: no-repeat;
+}
+
+.headline .myname {
+  font-weight: 700;
+  font-size: 48px;
+  color: #7d73fc;
+  margin-top: 47px;
+}
+
+.headline .subtitle {
+  font-weight: 500;
+  font-size: 32px;
+  color: #edecff;
+  margin-top: 40px;
+  align-self: center;
+}
+
+.headline .myinfo {
+  font-weight: 400;
+  font-size: 20px;
+  color: #c8c8d4;
+  margin-top: 40px;
+  padding-bottom: 33px;
+  border-bottom: 1px solid #646369;
+}
+
+.languages_container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 24px 41px 24px;
+  background-image: url(./assets/Ellipse19.svg);
+  background-repeat: no-repeat;
+  background-position: right top;
+  border-bottom: 1px solid #646369;
+}
+
+.languages_container > div > ul {
+  list-style: none;
+}
+
+.languages_container > div > ul > * {
+  margin-top: 20px;
+}
+
+.frameworks,
+.skills,
+.language {
+  width: 50%;
+  font-weight: 400;
+  font-size: 15px;
+  color: #f5f5ff;
+  box-sizing: border-box;
+  margin-top: 37px;
+}
+
+.language,
+.skills {
+  padding-left: 20px;
+}
+
+.social_media_container {
+  margin: 0 24px;
+  padding-top: 48px;
+}
+
+.social_media_container .social_media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.social_media_container .social_media > * {
+  margin: 0 10px;
+}
+
+.work_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 28px;
+}
+
+.work_box .work {
+  margin-left: 20px;
+  font-weight: 500;
+  font-size: 20px;
+  color: #a2a3ae;
+}
+
+
+
+.languages_container h6 {
+  font-weight: 500;
+  font-size: 12px;
+  color: #9490ff;
+  margin-bottom: 29px;
+}
