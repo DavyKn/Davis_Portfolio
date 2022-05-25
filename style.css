@@ -86,7 +86,6 @@ a:active {
   background-image: url(./assets/Ellipse19.svg);
   background-repeat: no-repeat;
   background-position: right top;
-  border-bottom: 1px solid #646369;
 }
 
 .languages_container > div > ul {
@@ -116,6 +115,7 @@ a:active {
 .social_media_container {
   margin: 0 24px;
   padding-top: 48px;
+  border-top: 1px solid #646369;
 }
 
 .social_media_container .social_media {
@@ -143,8 +143,6 @@ a:active {
   font-size: 20px;
   color: #a2a3ae;
 }
-
-
 
 .languages_container h6 {
   font-weight: 500;
