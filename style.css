@@ -150,3 +150,98 @@ a:active {
   color: #9490ff;
   margin-bottom: 29px;
 }
+
+.recent_heading {
+  font-weight: 500;
+  font-size: 40px;
+  color: #9490ff;
+  margin: 83px 24px 33px 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #646369;
+}
+
+.About_myself {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: repeat(4, auto);
+  row-gap: 40px;
+  background-image: url(./assets/Ellipse\ 19.svg), url(./assets/Ellipse\ 20.svg), url(./assets/Ellipse\ 21.svg), url(./assets/Ellipse\ 22.svg);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-position: 0 62px, right 879px, 0 1658px, right 2428px;
+}
+
+.project-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 24px;
+}
+
+.project-container .image_placeholder {
+  background-color: #fff;
+  width: 327px;
+  height: 236px;
+}
+
+.project-container .title_post {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 32px;
+  height: 105px;
+  color: #fff;
+  margin: 24px 0;
+}
+
+.project-container .supporting_text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #dcdce8;
+  margin-bottom: 24px;
+}
+
+.project-container .tags {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  margin-bottom: 24px;
+  list-style: none;
+  font-weight: 500;
+  font-size: 15px;
+  color: #fff;
+}
+
+.tags li {
+  padding: 10px 20px;
+  border-right: 1px solid #646369;
+}
+
+.tags li:last-child {
+  padding: 10px 0 10px 20px;
+}
+
+.button {
+  position: static;
+  width: 89px;
+  height: 48px;
+  text-align: center;
+  background-color: #7d73fc;
+  align-items: center;
+  color: #edecff;
+  font-weight: 500;
+  font-size: 12px;
+  border: none;
+}
+
+button:hover {
+  box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
+}
+
+button:active {
+  background-color: #5e42d7;
+}
+
+
+
+
+
