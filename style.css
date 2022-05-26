@@ -83,7 +83,7 @@ a:active {
   display: flex;
   flex-wrap: wrap;
   padding: 0 24px 41px 24px;
-  background-image: url(./assets/Ellipse19.svg);
+  background-image: url(./assets/Ellipseround.svg);
   background-repeat: no-repeat;
   background-position: right top;
 }
@@ -165,9 +165,9 @@ a:active {
   grid-template-columns: auto;
   grid-template-rows: repeat(4, auto);
   row-gap: 40px;
-  background-image: url(./assets/Ellipse\ 19.svg), url(./assets/Ellipse\ 20.svg), url(./assets/Ellipse\ 21.svg), url(./assets/Ellipse\ 22.svg);
+  background-image: url(./assets/Ellipse19.svg), url(./assets/Ellipse20.svg), url(./assets/Ellipse21.svg), url(./assets/Ellipse22.svg);
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
-  background-position: 0 62px, right 879px, 0 1658px, right 2428px;
+  background-position: 0 168px, right 879px, 0 1658px, 200px 2399px;
 }
 
 .project-container {
@@ -218,6 +218,7 @@ a:active {
 
 .tags li:last-child {
   padding: 10px 0 10px 20px;
+  border-right: none;
 }
 
 .button {
@@ -234,6 +235,7 @@ a:active {
 }
 
 button:hover {
+  background-color: #7d73fc;
   box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
 }
 
