@@ -8,11 +8,11 @@ body {
   font-family: 'roboto', sans-serif;
 }
 
-a:link {
+a:visited {
   text-decoration: none;
 }
 
-a:visited {
+a:link {
   text-decoration: none;
 }
 
@@ -118,6 +118,10 @@ a:active {
   border-top: 1px solid #646369;
 }
 
+.social_media_container .social_media > * {
+  margin: 0 10px;
+}
+
 .social_media_container .social_media {
   display: flex;
   justify-content: center;
@@ -125,9 +129,6 @@ a:active {
   list-style: none;
 }
 
-.social_media_container .social_media > * {
-  margin: 0 10px;
-}
 
 .work_box {
   display: flex;
@@ -192,14 +193,6 @@ a:active {
   margin: 24px 0;
 }
 
-.project-container .supporting_text {
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-  color: #dcdce8;
-  margin-bottom: 24px;
-}
-
 .project-container .tags {
   display: flex;
   justify-content: space-between;
@@ -210,6 +203,15 @@ a:active {
   font-size: 15px;
   color: #fff;
 }
+
+.project-container .supporting_text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #dcdce8;
+  margin-bottom: 24px;
+}
+
 
 .tags li {
   padding: 10px 20px;
