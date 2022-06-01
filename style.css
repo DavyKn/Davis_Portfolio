@@ -242,3 +242,106 @@ button:hover {
 button:active {
   background-color: #5e42d7;
 }
+
+.contact_text {
+  display: flex;
+  flex-direction: column;
+  margin: 0 24px;
+}
+
+.contact_text .contact_us {
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 32px;
+  color: #9390ff;
+  margin-top: 120px;
+}
+
+.contact_text .description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f5f5ff;
+  text-align: center;
+  margin: 24px 0 40px 0;
+}
+
+.form_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form_container input {
+  width: 327px;
+  padding: 12px;
+  box-sizing: border-box;
+  border-radius: 0;
+  border-style: none;
+  margin: 0 24px 24px 24px;
+}
+
+.form_container .text_area {
+  height: 148px;
+  width: 327px;
+  border-radius: 0;
+  border-style: none;
+  margin: 0 24px;
+  resize: none;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+.form_container input::placeholder,
+.form_container .text_area::placeholder {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.form_button {
+  width: 89px;
+  height: 48px;
+  text-align: center;
+  background-color: #7d73fc;
+  align-items: center;
+  color: #edecff;
+  font-weight: 500;
+  font-size: 12px;
+  border: none;
+  align-self: center;
+  margin: 40px 0 71px 0;
+  transition: background-color 2s;
+}
+
+.form_button:hover {
+  background-color: #7d73fc;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .social_media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  border-top: 1px solid #646369;
+  padding-top: 15px;
+  width: 100%;
+}
+
+.footer .social_media > * {
+  margin: 0 10px;
+}
+
+.footer .my_email {
+  font-weight: 400;
+  font-size: 20px;
+  color: #ebebff;
+  text-align: center;
+}
