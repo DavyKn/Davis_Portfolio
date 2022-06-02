@@ -482,7 +482,7 @@ button:active {
     justify-content: center;
     margin: 0 auto;
     padding-top: 129px;
-    background-image: url(./assets/Ellipse_19.svg), url(./assets/Ellipse_20.svg), url(./assets/Ellipse_21.svg);
+    background-image: url(./assets/Ellipse19.svg), url(./assets/Ellipse20.svg), url(./assets/Ellipse21.svg);
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: left top, right 760px, left 1041px;
   }
