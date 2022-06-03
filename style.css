@@ -557,6 +557,7 @@ button:active {
 
   .form_button {
     width: 136px;
+    transition: all 0.3s ease 3s;
   }
 
   .footer {
