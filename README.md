@@ -21,7 +21,7 @@ and then open index.html in your browser.
 👤 **Davis Nyale**
 
 - GitHub: [@DavyKn](https://github.com/DavyKn)
-- Github livesite: ( https://davykn.github.io/my_portfolio/)
+- Github livesite: ( https://davykn.github.io/Davis_Portfolio/)
 - Twitter: [@davykk04](https://twitter.com/davykk04)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/davis-katana-246600159/)
 
