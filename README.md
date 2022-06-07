@@ -9,12 +9,10 @@
 - HTML
 - CSS
 
-
 ## Getting Started
 
 Clone the repository from https://github.com/DavyKn/my_portfolio
 and then open index.html in your browser.
-
 
 ## Authors
 
@@ -25,6 +23,11 @@ and then open index.html in your browser.
 - Twitter: [@davykk04](https://twitter.com/davykk04)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/davis-katana-246600159/)
 
+👤 **Nyame-Wolf**
+
+- GitHub: [@githubhandle](https://github.com/Nyame-Wolf/)
+- Twitter: [@twitterhandle](https://twitter.com/Mumenyam)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mumenya-nyamu-web-designer-data-enthusiast/)
 
 ## 🤝 Contributing
 
