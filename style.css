@@ -44,6 +44,39 @@ a:active {
   margin-right: 32px;
 }
 
+.menu_mobile {
+  position: fixed;
+  display: none;
+  flex-direction: column;
+  align-content: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #191765;
+  top: 0;
+}
+
+.portfolio_container,
+.about_container,
+.contact_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 48px 0 40px;
+}
+
+.menu_mobile a {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #edecff;
+}
+
+.menu_mobile .img {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 24px;
+}
+
 .headline {
   display: flex;
   flex-direction: column;
