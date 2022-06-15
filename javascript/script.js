@@ -1,3 +1,5 @@
+import myObjects from "./data";
+
 const menuMobile = document.getElementById('menu_mobile');
 const hamburgerMenu = document.getElementById('hamburger_menu');
 const closeButton = document.getElementById('close_button');

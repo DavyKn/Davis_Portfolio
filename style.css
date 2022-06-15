@@ -77,6 +77,111 @@ a:active {
   margin-right: 24px;
 }
 
+.popup_window {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #fff;
+  margin: 0 24px;
+  padding: 0 24px;
+  background-color: rgba(255, 255, 255, 0.16);
+  z-index: 10;
+}
+
+#popup_window {
+  display: none;
+  position: absolute;
+  top: 0;
+}
+
+.background_popup {
+  background-color: #191765;
+  z-index: 5;
+}
+
+.top_title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.top_title .h_tag {
+  font-weight: 500;
+  font-size: 20px;
+  color: #fff;
+}
+
+.photo {
+  margin-top: 24px;
+}
+
+.photo img {
+  object-fit: cover;
+  width: 279px;
+}
+
+.popup_window .portfolio_para {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  line-height: 24px;
+  margin-top: 24px;
+  text-align: center;
+}
+
+.popup_window .unordered_list {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-self: center;
+  font-weight: 500;
+  font-size: 15px;
+  color: #fff;
+  margin-top: 24px;
+}
+
+.html1,
+.ruby1,
+.css1 {
+  padding: 10px 20px;
+  border-right: 1px solid #646369;
+}
+
+.html1 {
+  border-left: 1px solid #646369;
+}
+
+.button1,
+.button2 {
+  position: static;
+  justify-content: center;
+  align-items: center;
+  background-color: #7d73fc;
+  border: none;
+  margin: 24px auto 0 auto;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.button1 {
+  width: 108px;
+  height: 48px;
+}
+
+.button2 {
+  width: 124px;
+  height: 48px;
+  margin-bottom: 28px;
+}
+
+.popup_window span {
+  color: #edecff;
+  font-weight: 500;
+  font-size: 12px;
+  margin-right: 15px;
+}
+
 .headline {
   display: flex;
   flex-direction: column;
@@ -431,8 +536,51 @@ button:active {
     margin-right: 32px;
   }
 
-  .button {
+  .popup_window {
+    margin: 112px 142px 0 142px;
+  }
+
+  .top_title {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .top_title .h_tag {
+    font-size: 40px;
+  }
+
+  .top_title img {
+    height: 40px;
+    width: 40px;
+  }
+
+  #tags-popup li {
+    padding: 15px;
+    border-left: 1px solid #646369;
+    border-right: 1px solid #646369;
+  }
+
+  .popup_buttons {
+    display: flex;
+    justify-content: center;
+  }
+
+  .button1,
+  .button2 {
     margin: 30px;
+  }
+
+  .popup_window .photo img {
+    width: 100%;
+    height: auto;
+  }
+
+  .popup_window .portfolio_para {
+    justify-content: center;
+    align-content: center;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 40px 236px 57px 236px;
   }
 
   .headline {
