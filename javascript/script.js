@@ -1,4 +1,4 @@
-import myObjects from "./data";
+import myObjects from "./data.js";
 
 const menuMobile = document.getElementById('menu_mobile');
 const hamburgerMenu = document.getElementById('hamburger_menu');
