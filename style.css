@@ -430,6 +430,13 @@ button:active {
   box-sizing: border-box;
 }
 
+#error_message {
+  color: #f00;
+  display: none;
+  text-align: center;
+  font-style: italic;
+}
+
 .form_container input::placeholder,
 .form_container .text_area::placeholder {
   font-family: 'Inter', sans-serif;

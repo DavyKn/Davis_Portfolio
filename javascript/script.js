@@ -7,6 +7,11 @@ const navElement = document.querySelectorAll('.menu_mobile a');
 const popup = document.getElementById('popup_window');
 const aboutMyself = document.getElementById('About_myself');
 const closePopup = document.getElementById('close_popup');
+const contactForm = document.getElementById('contact_form');
+const emailContactForm = document.getElementById('email');
+const msgError = document.getElementById('error_message');
+
+// open and closing hambuger menu
 
 hamburgerMenu.addEventListener('click', () => {
   menuMobile.style.display = 'flex';
@@ -21,6 +26,8 @@ navElement.forEach((element) => {
     menuMobile.style.display = 'none';
   });
 });
+
+// popup_menu
 
 const language = (index) => {
   let str = '';
@@ -63,3 +70,26 @@ for (let i = 0; i < myObjects.length; i += 1) {
     popup.style.display = 'flex';
   });
 }
+
+// client side email validation
+
+const checkLowerCase = (email) => {
+  const validateLowerCase = (/[A-Z]/g);
+
+  if (validateLowerCase.test(email)) {
+    return false;
+  }
+  return true;
+};
+
+contactForm.addEventListener('submit', (event) => {
+  event.preventDefault();
+  if (checkLowerCase(emailContactForm.value.trim())) {
+    contactForm.submit();
+    msgError.style.display = 'none';
+    emailContactForm.className = 'email';
+  } else {
+    msgError.style.display = 'block';
+    emailContactForm.className = '.error';
+  }
+});
