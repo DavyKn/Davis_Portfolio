@@ -93,3 +93,34 @@ contactForm.addEventListener('submit', (event) => {
     emailContactForm.className = '.error';
   }
 });
+
+// local storage
+
+const userName = document.getElementById('username');
+const mailAdd = document.getElementById('email');
+const textArea = document.getElementById('text_area');
+
+const storageSave = () => {
+  const setData = {
+    name: userName.value,
+    email: mailAdd.value,
+    text: textArea.value,
+  };
+  localStorage.setItem('storageData', JSON.stringify(setData));
+};
+
+const getSave = () => {
+  const getData = JSON.parse(localStorage.getItem('storageData'));
+  mailAdd.value = getData.email;
+  userName.value = getData.name;
+  textArea.value = getData.text;
+};
+
+if (!localStorage.getItem('savedData')) {
+  const savedData = { name: '', email: '', text: '' };
+  localStorage.setItem('savedData', JSON.stringify(savedData));
+} else {
+  getSave();
+}
+
+contactForm.addEventListener('change', storageSave);
